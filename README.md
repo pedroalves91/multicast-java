@@ -11,4 +11,5 @@ Each vehicle has a list of received events, and each time an event is received a
 As previously mentioned, every 5 seconds each application will send its list of received events to all its neighbors, however, each event has an expiration time associated with it, after which it must be eliminated. Therefore, before sending the various events on the list, an update of the list is made, that will check if each event on the list has already exceeded its time limit.
 
 MESSAGE STRUCTURE
+
 | event type | position X | position Y | time |
